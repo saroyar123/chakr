@@ -1,0 +1,161 @@
+.alalysis {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(213, 190, 159);
+    margin-bottom: 8px;
+    height: 250px;
+}
+
+.revenues {
+    width: 410px;
+    height: Fill (261.61px);
+    padding: 24px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 1px solid blue;
+    margin-right: 4px;
+}
+
+.lostDetails {
+    width: 410px;
+    height: Fill (261.61px);
+    padding: 24px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 1px solid blue;
+    margin: 0px 4px;
+
+}
+
+.quatersGoal {
+    width: 260px;
+    height: Fill (261.61px);
+    padding: 24px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 1px solid blue;
+    margin-left: 4px;
+}
+
+
+
+
+
+
+
+/* css about the customers And Growth */
+.customers_Growth {
+    display: flex;
+    flex-direction: row;
+    margin: 4px 0px;
+}
+
+.customers {
+    width: 610px;
+    height: 400px;
+    padding: 24px, 0px, 24px, 0px;
+    border-radius: 16px;
+    gap: 16px;
+    border: 1px black solid;
+    overflow: hidden;
+    margin-right: 4px;
+}
+
+.customers_headers {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height: 24px;
+    padding: 20px ;
+}
+
+.customers_headers p{
+    position:relative;
+    right: 0;
+}
+
+.customer_Info {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    padding: 16px;
+    border-radius: 16px;
+    gap: 16px;
+    border: 1px blue solid;
+}
+
+.customer_footer{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.growth {
+    width: 590px;
+    height: 400px;
+    gap: 16px;
+    border: 1px black solid;
+    overflow: hidden;
+    margin-left: 4px;
+    border-radius: 16px;
+
+}
+
+
+
+.performance {
+    display: flex;
+    flex-direction: row;
+}
+
+.performance_details {
+    width: 169.33px;
+    height: 95px;
+    padding: 16px;
+    border-radius: 16px;
+    gap: 16px;
+    border: 1px red solid;
+
+}
+
+
+
+
+
+
+
+/* css for customersActivity */
+.customersActivity {
+    display: flex;
+    flex-direction: row;
+}
+
+.chats{
+    width: 320px;
+    height: 160px;
+    padding: 24px;
+    border-radius: 16px;
+    gap: 8px;
+    border: 1px solid red;    
+}
+.users{
+    display: flex;
+    flex-direction: row;
+}
+
+.topStates{
+width:320px;
+height:160px;
+padding: 24px;
+border-radius: 16px;
+gap: 8px;
+border: 1px solid red;
+}
+
+.newDeals{
+width: 392px;
+height:160px;
+gap: 8px;
+padding: 24px;
+border-radius: 16px;
+border: 1px solid red;
+}

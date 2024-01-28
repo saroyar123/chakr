@@ -1,0 +1,40 @@
+.top_portion{
+    height: 700px;
+}
+
+
+.logo{
+    padding: 5px;
+    display: flex;
+    align-content: center;
+
+}
+
+/* working on the dashboard */
+.dashbord_component{
+display: flex;
+align-items: center;
+gap: 5px;
+height: 20px;
+padding: 12px;
+border: 1px red solid;
+overflow: hidden;
+}
+
+
+
+/* working on account */
+.account{
+    padding: 20px;
+}
+
+.account_Details{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.settings{
+    gap: 15px;
+}

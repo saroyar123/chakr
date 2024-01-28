@@ -1,0 +1,24 @@
+.page{
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: row;
+}
+
+.sideBar{
+  width: 20%;
+  margin: 8px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.mainBody{
+  width: 80%;
+  height: auto;
+  border: 1px red solid;
+  margin: 8px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
