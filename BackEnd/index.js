@@ -13,7 +13,6 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-console.log(process.env.databaseUrl);
 
 app.get("/", (req, res) => {
   res.json({

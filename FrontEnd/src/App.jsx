@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <div className='page'>
-        {getDataSuccess === 1 ? <h1>loading...</h1> :
+        {getDataSuccess === 1 ? <div><h1>Loading...</h1> </div>:
           <>
             <div className='sideBar'>
               <SideBar />

@@ -53,7 +53,7 @@ const SideBar = () => {
                 </div>
                 <div className="settings">
                     <h3><img src='src\assest\icons\settings.svg' /> <span>Setting</span></h3>
-                    <button type='submit'><img src='src\assest\icons\logout.svg' /> <span>Logout</span></button>
+                    <button type='submit'><img src='src\assest\icons\logout.svg' /> <span>Log out</span></button>
                 </div>
             </div>
         </div>
