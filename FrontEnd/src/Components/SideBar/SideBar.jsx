@@ -45,7 +45,7 @@ const SideBar = () => {
             <div className="account">
 
                 <div className="account_Details">
-                    <img src='src\assest\images\Avatar (1).png' />
+                    <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_ecffh4.png' />
                     <div className="account_holder_details">
                         <h4>Gustova Xavier</h4>
                         <p>Admin</p>
