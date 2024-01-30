@@ -32,7 +32,7 @@ function MainBody({ data }) {
             <p>Increase compared to last week</p>
           </div>
           <div className='references'>
-            <a><p>Revenues Reports <img src='src\assest\icons\Vector.svg' /></p></a>
+            <a><p>Revenues Reports <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706645202/chakr/Vector_nes7lt.svg' /></p></a>
           </div>
         </div>
         <div className="lostDetails">
@@ -42,7 +42,7 @@ function MainBody({ data }) {
             <p>You closed 96 out of 100 deals</p>
           </div>
           <div className='references'>
-            <a><p>All details <img src="src\assest\icons\Vector.svg" alt="" /></p></a>
+            <a><p>All details <img src="https://res.cloudinary.com/dwcarlfhd/image/upload/v1706645202/chakr/Vector_nes7lt.svg" alt="" /></p></a>
           </div>
         </div>
         <div className="quatersGoal">
@@ -69,7 +69,7 @@ function MainBody({ data }) {
 
 
           <div className='references'>
-            <a><p>All details <img src="src\assest\icons\Vector.svg" alt="" /></p></a>
+            <a><p>All details <img src="https://res.cloudinary.com/dwcarlfhd/image/upload/v1706645202/chakr/Vector_nes7lt.svg" alt="" /></p></a>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ function MainBody({ data }) {
 
             <div className='customer_Info'>
               <div className='info_details'>
-                <img src='src\assest\images\Avatar (1).svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706645260/chakr/Avatar_2_dkpbdk.svg' />
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -98,11 +98,11 @@ function MainBody({ data }) {
               </div>
 
               <div className="working_options wo1">
-                <img src='src\assest\icons\conversations.svg' />
-                <img src='src\assest\icons\star.svg' />
-                <img src='src\assest\icons\edit.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628840/chakr/conversations_-_Copy_at3lzj.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628848/chakr/star_s8cbfu.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628842/chakr/edit_-_Copy_ayne0x.svg' />
                 <span>|</span>
-                <img src='src\assest\icons\options.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/options_p74ddo.svg' />
               </div>
             </div>
             <div className='customer_Info'>
