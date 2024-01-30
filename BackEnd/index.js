@@ -23,13 +23,14 @@ app.get("/", (req, res) => {
 
 
 // Custom downsampling function
-// Custom downsampling function
 function customDownsampling(data) {
     try {
       const result = [];
       let date=data[0].Timestamp.toString().slice(0,7);
       let sum_of_Total_Prifit_in_a_Month=0;
       let number_of_Days=0;
+
+      console.log("hello")
     data.forEach(element => {
         let newDate=element.Timestamp.toString().slice(0,7);
 
@@ -44,9 +45,12 @@ function customDownsampling(data) {
         sum_of_Total_Prifit_in_a_Month+=element["Profit Percentage"];
         number_of_Days+=1;
     });
-
+    
+    console.log("hello 1")
     let avg=sum_of_Total_Prifit_in_a_Month/number_of_Days;
     result.push({date,avg});
+    
+    console.log(result)
   
       return result;
     } catch (error) {
