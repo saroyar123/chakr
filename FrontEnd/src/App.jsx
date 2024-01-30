@@ -11,7 +11,7 @@ function App() {
   const [getDataSuccess, setGetdataSuccess] = useState(1);
 
   useEffect(() => {
-    axios.get("http://localhost:4000/data")
+    axios.get("https://chakr-backend-gnio.onrender.com/data")
       .then((response) => {
         const { data } = response;
         console.log(response)
