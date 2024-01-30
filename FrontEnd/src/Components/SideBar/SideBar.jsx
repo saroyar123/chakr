@@ -22,7 +22,7 @@ const SideBar = () => {
                         <img src="https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628842/chakr/customers_-_Copy_slcgkd.svg" alt="" /> <span>Customers</span>
                     </div>
                     <div className="dashbord_component">
-                        <img src='src/assest/icons/allReports.svg' /> <span>All reports</span>
+                        <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628840/chakr/allReports_-_Copy_ca5zbe.svg' /> <span>All reports</span>
                     </div>
                     <div className="dashbord_component">
                         <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628844/chakr/geography_-_Copy_buehfi.svg' /> <span>Geography</span>
@@ -45,7 +45,7 @@ const SideBar = () => {
             <div className="account">
 
                 <div className="account_Details">
-                    <img src='src\assest\images\Avatar.svg' />
+                    <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706645256/chakr/Avatar_pqsblo.svg' />
                     <div className="account_holder_details">
                         <h4>Gustova Xavier</h4>
                         <p>Admin</p>

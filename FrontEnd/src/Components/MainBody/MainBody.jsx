@@ -28,7 +28,7 @@ function MainBody({ data }) {
         <div className="revenues">
           <h2>Revenues</h2>
           <div className="content">
-            <h1>15% <img src='src\assest\icons\growth.svg' /></h1>
+            <h1>15% <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628844/chakr/growth_zjzkgw.svg' /></h1>
             <p>Increase compared to last week</p>
           </div>
           <div className='references'>
