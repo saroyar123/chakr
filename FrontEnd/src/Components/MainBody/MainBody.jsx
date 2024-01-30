@@ -90,7 +90,7 @@ function MainBody({ data }) {
 
             <div className='customer_Info'>
               <div className='info_details'>
-                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706645260/chakr/Avatar_2_dkpbdk.svg' />
+                <img src='src\assest\images\Avatar (2).png' height="40px" width="40px"/>
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -107,7 +107,7 @@ function MainBody({ data }) {
             </div>
             <div className='customer_Info'>
               <div className="info_details">
-                <img src='src\assest\images\Avatar (2).svg' />
+                <img src='src\assest\images\Avatar (1).png' height="40px" width="40px"/>
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -125,7 +125,7 @@ function MainBody({ data }) {
             </div>
             <div className='customer_Info'>
               <div className="info_details">
-                <img src='src\assest\images\Avatar (3).svg' />
+                <img src='src\assest\images\Avatar (3).png' height="40px" width="40px"/>
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -142,7 +142,7 @@ function MainBody({ data }) {
             </div>
             <div className='customer_Info'>
               <div className="info_details">
-                <img src='src\assest\images\Avatar.svg' />
+                <img src='src\assest\images\Avatar.png' height="40px" width="40px"/>
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -201,7 +201,7 @@ function MainBody({ data }) {
             <div className="performance_details top_user">
               <h4>Top user</h4>
               <div className='top_user_values'>
-                <img src='src\assest\images\Avatar.svg' width="24px" height="24px" />
+                <img src='src\assest\images\Avatar (1).png' width="24px" height="24px" />
                 <h4>Chirs Friedkly</h4>
                 <p>Oasis Organic inc</p>
               </div>
@@ -223,20 +223,20 @@ function MainBody({ data }) {
                 <div className='dot'>
                 </div>
               </div>
-              <img src='src\assest\images\Avatar.svg' />
+              <img src='src\assest\images\Avatar (1).png'  height="35px" width="35px"/>
             </div>
             <div className="chat_user active_user">
               <div className='active'>
                 <div className='dot'>
                 </div>
               </div>
-              <img src='src\assest\images\Avatar (3).svg' />
+              <img src='src\assest\images\Avatar (2).png'  height="35px" width="35px"/>
             </div>
             <div className="chat_user">
-              <img src='src\assest\images\Avatar (2).svg' />
+              <img src='src\assest\images\Avatar (3).png'  height="35px" width="35px"/>
             </div>
             <div className="chat_user">
-              <img src='src\assest\images\Avatar (1).svg' />
+              <img src='src\assest\images\Avatar.png'  height="35px" width="35px"/>
             </div>
           </div>
         </div>
