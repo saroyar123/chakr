@@ -115,11 +115,11 @@ function MainBody({ data }) {
               </div>
 
               <div className="working_options wo2">
-                <img src='src\assest\icons\conversations.svg' />
-                <img src='src\assest\icons\star.svg' />
-                <img src='src\assest\icons\edit.svg' />
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628840/chakr/conversations_-_Copy_at3lzj.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628848/chakr/star_s8cbfu.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628842/chakr/edit_-_Copy_ayne0x.svg' />
                 <span>|</span>
-                <img src='src\assest\icons\options.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/options_p74ddo.svg' />
               </div>
 
             </div>
@@ -133,11 +133,11 @@ function MainBody({ data }) {
               </div>
 
               <div className="working_options wo3">
-                <img src='src\assest\icons\conversations.svg' />
-                <img src='src\assest\icons\star.svg' />
-                <img src='src\assest\icons\edit.svg' />
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628840/chakr/conversations_-_Copy_at3lzj.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628848/chakr/star_s8cbfu.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628842/chakr/edit_-_Copy_ayne0x.svg' />
                 <span>|</span>
-                <img src='src\assest\icons\options.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/options_p74ddo.svg' />
               </div>
             </div>
             <div className='customer_Info'>
@@ -150,11 +150,11 @@ function MainBody({ data }) {
               </div>
 
               <div className="working_options wo4">
-                <img src='src\assest\icons\conversations.svg' />
-                <img src='src\assest\icons\star.svg' />
-                <img src='src\assest\icons\edit.svg' />
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628840/chakr/conversations_-_Copy_at3lzj.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628848/chakr/star_s8cbfu.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628842/chakr/edit_-_Copy_ayne0x.svg' />
                 <span>|</span>
-                <img src='src\assest\icons\options.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/options_p74ddo.svg' />
               </div>
             </div>
 
