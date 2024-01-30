@@ -2,21 +2,24 @@
   /* height: 100vh; */
   display: flex;
   flex-direction: row;
+  background-color: #eeeee6;
 }
 
 .sideBar{
   width: 20%;
-  margin: 8px;
-  border-radius: 10px;
+  margin: 16px;
+  margin-right: 8px;
+  border-radius: 16px;
   background-color: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   overflow: hidden;
 }
 .mainBody{
   width: 80%;
   height: auto;
-  border: 1px red solid;
-  margin: 8px;
+  /* border: 1px red solid; */
+  margin: 16px;
+  margin-left: 8px;
   border-radius: 10px;
   overflow: hidden;
 }

@@ -2,28 +2,47 @@
     display: flex;
     flex-direction: row;
     border: 1px solid rgb(213, 190, 159);
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     height: 250px;
 }
 
 .revenues {
+    display: flex;
+    flex-direction: column;
     width: 410px;
     height: Fill (261.61px);
     padding: 24px;
     border-radius: 16px;
-    gap: 8px;
-    border: 1px solid blue;
-    margin-right: 4px;
+    gap: 40px;
+    /* border: 1px solid blue; */
+    background-color: white;
+    margin-right: 8px;
+}
+
+.content h1{
+font-size: 48px;
+font-weight: 500;
+line-height: 58px;
+letter-spacing: -2px;
+text-align: left;
+
+}
+
+.references p{
+    color: #734A00;
 }
 
 .lostDetails {
+    display: flex;
+    flex-direction: column;
     width: 410px;
     height: Fill (261.61px);
     padding: 24px;
     border-radius: 16px;
-    gap: 8px;
+    gap: 40px;
     border: 1px solid blue;
-    margin: 0px 4px;
+    background-color: white;
+    margin: 0px 8px;
 
 }
 
@@ -34,11 +53,50 @@
     border-radius: 16px;
     gap: 8px;
     border: 1px solid blue;
-    margin-left: 4px;
+    margin-left: 8px;
 }
 
 
 
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.margin{
+    margin: 25px;
+}
+
+.curve_bar{
+   width: 150px;
+   height: 75px;
+   display: flex;
+   border: 1px red solid;
+   position: relative;
+   color: #fff;
+   align-items: flex-end;
+   justify-content: center;
+   box-sizing: border-box;
+   overflow: hidden;
+
+   &::after{
+     content: '';
+     box-sizing: border-box;
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 150px;
+     height: 150px;
+     border: 15px red solid;
+     border-color: #FFF7E8 #FFF7E8 #FFCD71 #FFCD71 ;
+     border-radius: 50%;
+     transform: rotate(90deg);
+
+
+   }
+}
 
 
 
@@ -47,7 +105,7 @@
 .customers_Growth {
     display: flex;
     flex-direction: row;
-    margin: 4px 0px;
+    margin: 8px 0px;
 }
 
 .customers {
@@ -56,35 +114,86 @@
     padding: 24px, 0px, 24px, 0px;
     border-radius: 16px;
     gap: 16px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
+    background-color: white;
     overflow: hidden;
-    margin-right: 4px;
+    margin-right: 8px;
 }
 
 .customers_headers {
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     height: 24px;
-    padding: 20px ;
+    padding: 20px;
 }
 
-.customers_headers p{
-    position:relative;
+.customers_headers p {
+    position: relative;
     right: 0;
 }
 
 .customer_Info {
     display: flex;
     flex-direction: row;
+    align-items: center;
     height: 35px;
     padding: 16px;
     border-radius: 16px;
     gap: 16px;
-    border: 1px blue solid;
+    justify-content: space-between;
+    /* border: 1px blue solid; */
 }
 
-.customer_footer{
+.info_details{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.working_options{
+    display: none;
+}
+
+.customer_Info:hover{
+    background-color: #FFF7E8;
+}
+
+
+.customer_Info:hover .wo1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 30px;
+    /* display: block; */
+  }
+
+
+  .customer_Info:hover .wo2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 30px;
+    /* display: block; */
+  }
+
+  .customer_Info:hover .wo3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 30px;
+    /* display: block; */
+  }
+
+  .customer_Info:hover .wo4 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-right: 30px;
+    /* display: block; */
+  }
+
+.customer_footer {
     padding: 10px;
     margin-top: 10px;
 }
@@ -93,28 +202,90 @@
     width: 590px;
     height: 400px;
     gap: 16px;
-    border: 1px black solid;
+    /* border: 1px black solid; */
     overflow: hidden;
-    margin-left: 4px;
+    margin-left: 8px;
     border-radius: 16px;
+}
+
+.graph {
+    background-color: white;
+    margin-bottom: 4px;
+    border-radius: 16px;
+}
+
+.chart {
+    display: flex;
+    justify-content: center;
+}
+
+.graph_headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
 
 }
+
 
 
 
 .performance {
     display: flex;
     flex-direction: row;
+    margin-top: 16px;
 }
 
 .performance_details {
     width: 169.33px;
-    height: 95px;
-    padding: 16px;
+    height: 100px;
+    padding: 5px 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
     border-radius: 16px;
-    gap: 16px;
-    border: 1px red solid;
+    /* border: 1px red solid; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #7D7D7D;
+}
 
+
+.top_month {
+    margin-right: 8px;
+}
+
+.top_month_values h2 {
+    color: #734A00;
+}
+
+.top_month_values p {
+    color: #FFA500;
+}
+
+.top_year {
+    margin: 0px 8px;
+}
+
+.top_year_values h2 {
+    color: #734A00;
+}
+
+.top_year_values p {
+    color: #454545;
+}
+
+.top_user {
+    margin-left: 8px;
+}
+
+.top_user_values h4 {
+    font-size: 12px;
+}
+
+.top_user_values p {
+    font-size: 10px;
 }
 
 
@@ -127,35 +298,137 @@
 .customersActivity {
     display: flex;
     flex-direction: row;
+    margin-top: 16px;
 }
 
-.chats{
-    width: 320px;
+.customersActivity h3 {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+}
+
+.chats {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
     height: 160px;
     padding: 24px;
+    padding-top: 20px;
     border-radius: 16px;
     gap: 8px;
-    border: 1px solid red;    
+    /* border: 1px solid red */
+    background-color: white;
+    margin-right: 8px;
 }
-.users{
+
+.users {
     display: flex;
     flex-direction: row;
+    padding-top: 20px;
+    gap: 25px;
 }
 
-.topStates{
-width:320px;
-height:160px;
-padding: 24px;
-border-radius: 16px;
-gap: 8px;
-border: 1px solid red;
+.chat_user {
+    padding: 10px;
+    border-radius: 10px;
+
 }
 
-.newDeals{
-width: 392px;
-height:160px;
-gap: 8px;
-padding: 24px;
-border-radius: 16px;
-border: 1px solid red;
+.active_user {
+    background-color: #FFF7E8;
+}
+
+
+.active {
+    height: 8px;
+    width: 8px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 20px;
+    background-color: #FFF7E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background-color: red;
+    border-radius: 2px;
+}
+
+.top_States {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 160px;
+    padding: 24px;
+    padding-top: 20px;
+    border-radius: 16px;
+    gap: 8px;
+    /* border: 1px solid red; */
+    margin: 0px 8px;
+    background-color: white;
+}
+
+.state_components {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(to right, #FFCD71, #f8f1f1);
+    margin: 5px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.state_components p {
+    font-size: 10px;
+    font-weight: 500;
+    text-align: right;
+
+}
+
+
+
+.new_Deals {
+    width: 420px;
+    height: 160px;
+    gap: 8px;
+    padding: 24px;
+    padding-top: 20px;
+    border-radius: 16px;
+    /* border: 1px solid red; */
+    background-color: white;
+    margin-left: 8px;
+}
+
+.deals_Details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.deal_components {
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 15px;
+    background-color: #FFF7E8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.deal_components h3 {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.30000001192092896px;
+    text-align: left;
+
 }

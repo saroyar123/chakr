@@ -9,8 +9,9 @@ const SideBar = () => {
                     <h2><img src='src\assest\icons\Logomark.svg' /> <span>OrangeFarm</span></h2>
                 </div>
                 <div className="search">
+                    <img src='src\assest\icons\search.svg'/>
                     <form action="">
-                        <input type="text" className="search" />
+                        <input type="text" placeholder='search' />
                     </form>
                 </div>
                 <div className="dashboard">

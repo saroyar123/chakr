@@ -28,11 +28,11 @@ function MainBody({ data }) {
         <div className="revenues">
           <h2>Revenues</h2>
           <div className="content">
-            <h1>15%</h1>
+            <h1>15% <img src='src\assest\icons\growth.svg' /></h1>
             <p>Increase compared to last week</p>
           </div>
           <div className='references'>
-            <a><p>Revenues Reports</p></a>
+            <a><p>Revenues Reports <img src='src\assest\icons\Vector.svg' /></p></a>
           </div>
         </div>
         <div className="lostDetails">
@@ -42,14 +42,16 @@ function MainBody({ data }) {
             <p>You closed 96 out of 100 deals</p>
           </div>
           <div className='references'>
-            <a><p>All details</p></a>
+            <a><p>All details <img src="src\assest\icons\Vector.svg" alt="" /></p></a>
           </div>
         </div>
         <div className="quatersGoal">
           <h2>Quaters Goals</h2>
           <div className="content">
-            <h1>4%</h1>
-            <p>You closed 96 out of 100 deals</p>
+
+            <div className="curve_bar">
+              CSS3
+            </div>
           </div>
           <div className='references'>
             <a><p>All details</p></a>
@@ -70,64 +72,124 @@ function MainBody({ data }) {
             <p>Sort by Newest</p>
           </div>
           <div className="customerdetails">
+
             <div className='customer_Info'>
-              <img src='src\assest\images\Avatar (1).svg' />
-              <div className="info">
-                <h4>name</h4>
-                <p>Supermarket</p>
+              <div className='info_details'>
+                <img src='src\assest\images\Avatar (1).svg' />
+                <div className="info">
+                  <h4>name</h4>
+                  <p>Supermarket</p>
+                </div>
+              </div>
+
+              <div className="working_options wo1">
+                <img src='src\assest\icons\conversations.svg' />
+                <img src='src\assest\icons\star.svg' />
+                <img src='src\assest\icons\edit.svg' />
+                <span>|</span>
+                <img src='src\assest\icons\options.svg' />
               </div>
             </div>
             <div className='customer_Info'>
-              <img src='src\assest\images\Avatar (2).svg' />
-              <div className="info">
-                <h4>name</h4>
-                <p>Supermarket</p>
+              <div className="info_details">
+                <img src='src\assest\images\Avatar (2).svg' />
+                <div className="info">
+                  <h4>name</h4>
+                  <p>Supermarket</p>
+                </div>
+              </div>
+
+              <div className="working_options wo2">
+                <img src='src\assest\icons\conversations.svg' />
+                <img src='src\assest\icons\star.svg' />
+                <img src='src\assest\icons\edit.svg' />
+                <span>|</span>
+                <img src='src\assest\icons\options.svg' />
               </div>
 
             </div>
             <div className='customer_Info'>
-              <img src='src\assest\images\Avatar (3).svg' />
-              <div className="info">
-                <h4>name</h4>
-                <p>Supermarket</p>
+              <div className="info_details">
+                <img src='src\assest\images\Avatar (3).svg' />
+                <div className="info">
+                  <h4>name</h4>
+                  <p>Supermarket</p>
+                </div>
+              </div>
+
+              <div className="working_options wo3">
+                <img src='src\assest\icons\conversations.svg' />
+                <img src='src\assest\icons\star.svg' />
+                <img src='src\assest\icons\edit.svg' />
+                <span>|</span>
+                <img src='src\assest\icons\options.svg' />
               </div>
             </div>
             <div className='customer_Info'>
-              <img src='src\assest\images\Avatar.svg' />
-              <div className="info">
-                <h4>name</h4>
-                <p>Supermarket</p>
+              <div className="info_details">
+                <img src='src\assest\images\Avatar.svg' />
+                <div className="info">
+                  <h4>name</h4>
+                  <p>Supermarket</p>
+                </div>
+              </div>
+
+              <div className="working_options wo4">
+                <img src='src\assest\icons\conversations.svg' />
+                <img src='src\assest\icons\star.svg' />
+                <img src='src\assest\icons\edit.svg' />
+                <span>|</span>
+                <img src='src\assest\icons\options.svg' />
               </div>
             </div>
 
           </div>
           <div className='customer_footer'>
-          <p>All customers <img src='src\assest\icons\Vector.svg'/></p>
+            <p>All customers <img src='src\assest\icons\Vector.svg' /></p>
           </div>
-          
+
         </div>
 
 
         <div className="growth">
           <div className='graph'>
-            <h2>Growth</h2>
-            <Chart
-              options={graphData.options}
-              series={graphData.series}
-              type="line"
-              width="500"
-              height="230"
-            />
+            <div className="graph_headers">
+              <h2>Growth</h2>
+              <p>Yearly</p>
+            </div>
+            <div className="chart">
+              <Chart
+                options={graphData.options}
+                series={graphData.series}
+                type="line"
+                width="500"
+                height="211"
+              />
+            </div>
+
           </div>
           <div className="performance">
             <div className="performance_details top_month">
               <h4>Top month</h4>
+              <div className='top_month_values'>
+                <h2>November</h2>
+                <p>2019</p>
+              </div>
             </div>
             <div className="performance_details top_year">
               <h4>Top year</h4>
+              <div className='top_year_values'>
+                <h2>2023</h2>
+                <p>96K sold so far</p>
+              </div>
             </div>
             <div className="performance_details top_user">
               <h4>Top user</h4>
+              <div className='top_user_values'>
+                <img src='src\assest\images\Avatar.svg' width="24px" height="24px" />
+                <h4>Chirs Friedkly</h4>
+                <p>Oasis Organic inc</p>
+              </div>
             </div>
           </div>
         </div>
@@ -141,17 +203,85 @@ function MainBody({ data }) {
           <h3>Chats</h3>
           <p>2 unread messages</p>
           <div className="users">
-            <img src='src\assest\images\Avatar.svg'/>
-            <img src='src\assest\images\Avatar (3).svg'/>
-            <img src='src\assest\images\Avatar (2).svg'/>
-            <img src='src\assest\images\Avatar (1).svg'/>
+            <div className="chat_user active_user">
+              <div className='active'>
+                <div className='dot'>
+                </div>
+              </div>
+              <img src='src\assest\images\Avatar.svg' />
+            </div>
+            <div className="chat_user active_user">
+              <div className='active'>
+                <div className='dot'>
+                </div>
+              </div>
+              <img src='src\assest\images\Avatar (3).svg' />
+            </div>
+            <div className="chat_user">
+              <img src='src\assest\images\Avatar (2).svg' />
+            </div>
+            <div className="chat_user">
+              <img src='src\assest\images\Avatar (1).svg' />
+            </div>
           </div>
         </div>
-        <div className="topStates">
+        <div className="top_States">
           <h3>Top States</h3>
+          <div className="states_Details">
+            <div className="state_components" style={{ width: `${95 * 120 / 120}%` }}>
+              <h4>NY</h4>
+              <p>120K</p>
+            </div>
+            <div className="state_components" style={{ width: `${95 * 80 / 120}%` }}>
+              <h4>NA</h4>
+              <p>80K</p>
+            </div>
+            <div className="state_components" style={{ width: `${95 * 70 / 120}%` }}>
+              <h4>NH</h4>
+              <p>70K</p>
+            </div>
+            <div className="state_components" style={{ width: `${95 * 50 / 120}%` }}>
+              <h4>OR</h4>
+              <p>50K</p>
+            </div>
+          </div>
         </div>
-        <div className="newDeals">
+        <div className="new_Deals">
           <h3>New Deals</h3>
+          <div className="deals_Details">
+            <div className="deal_components">
+              <img src='src\assest\icons\plus.svg' />
+              <h3>Fruit2Go</h3>
+            </div>
+            <div className="deal_components">
+              <img src='src\assest\icons\plus.svg' />
+              <h3>Marshall's MKT</h3>
+            </div>
+            <div className="deal_components">
+              <img src='src\assest\icons\plus.svg' />
+              <h3>CCNT</h3>
+            </div>
+            <div className="deal_components">
+              <img src='src\assest\icons\plus.svg' />
+              <h3>Joana Mini-market</h3>
+            </div>
+            <div className="deal_components">
+              <img src='src\assest\icons\plus.svg' />
+              <h3>Little Brazil Vegan</h3>
+            </div>
+            <div className="deal_components">
+              <img src='src\assest\icons\plus.svg' />
+              <h3>Target</h3>
+            </div>
+            <div className="deal_components">
+              <img src='src\assest\icons\plus.svg' />
+              <h3>Organic Place</h3>
+            </div>
+            <div className="deal_components">
+              <img src='src\assest\icons\plus.svg' />
+              <h3>Morello's</h3>
+            </div>
+          </div>
         </div>
       </div>
     </div>

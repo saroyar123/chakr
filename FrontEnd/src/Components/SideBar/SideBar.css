@@ -4,10 +4,30 @@
 
 
 .logo{
-    padding: 5px;
+    padding: 20px;
     display: flex;
     align-content: center;
+    
 
+}
+
+/* search bar */
+.search{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(88, 82, 82);
+    padding: 5px;
+    margin: 5px 20px;
+    overflow: hidden; 
+    border-radius: 80px;
+
+}
+
+.search input{
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    width: 100px;
 }
 
 /* working on the dashboard */
@@ -16,8 +36,8 @@ display: flex;
 align-items: center;
 gap: 5px;
 height: 20px;
-padding: 12px;
-border: 1px red solid;
+padding: 12px 25px;
+/* border: 1px red solid; */
 overflow: hidden;
 }
 
@@ -25,7 +45,10 @@ overflow: hidden;
 
 /* working on account */
 .account{
+    display: flex;
+    flex-direction: column;
     padding: 20px;
+    gap: 20px;
 }
 
 .account_Details{
@@ -35,6 +58,35 @@ overflow: hidden;
     margin-bottom: 10px;
 }
 
+.account_holder_details p{
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    background-color: #FFCD71; 
+    width: 35px;
+    padding: 0px 5px;
+    border-radius: 10px;   
+}
+
 .settings{
-    gap: 15px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.settings button{
+    width: 80px;
+    background-color: white;
+    border: none;
+    display: flex;
+    left: 0px;
+    gap: 5px;
+}
+.settings h3{
+    display: flex;
+    gap: 5px;
+}
+
+.settings button{
+    color: red;
 }
