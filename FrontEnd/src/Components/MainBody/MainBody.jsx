@@ -223,20 +223,20 @@ function MainBody({ data }) {
                 <div className='dot'>
                 </div>
               </div>
-              <img src='src\assest\images\Avatar (1).png'  height="35px" width="35px"/>
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_3_ci6ebe.png'  height="35px" width="35px"/>
             </div>
             <div className="chat_user active_user">
               <div className='active'>
                 <div className='dot'>
                 </div>
               </div>
-              <img src='src\assest\images\Avatar (2).png'  height="35px" width="35px"/>
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_ecffh4.png'  height="35px" width="35px"/>
             </div>
             <div className="chat_user">
-              <img src='src\assest\images\Avatar (3).png'  height="35px" width="35px"/>
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_2_wbag05.png'  height="35px" width="35px"/>
             </div>
             <div className="chat_user">
-              <img src='src\assest\images\Avatar.png'  height="35px" width="35px"/>
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_1_j3niua.png'  height="35px" width="35px"/>
             </div>
           </div>
         </div>
