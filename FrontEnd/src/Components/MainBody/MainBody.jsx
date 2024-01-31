@@ -265,35 +265,35 @@ function MainBody({ data }) {
           <h3>New Deals</h3>
           <div className="deals_Details">
             <div className="deal_components">
-              <img src='src\assest\icons\plus.svg' />
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/plus_lkh9qv.svg' />
               <h3>Fruit2Go</h3>
             </div>
             <div className="deal_components">
-              <img src='src\assest\icons\plus.svg' />
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/plus_lkh9qv.svg' />
               <h3>Marshall's MKT</h3>
             </div>
             <div className="deal_components">
-              <img src='src\assest\icons\plus.svg' />
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/plus_lkh9qv.svg' />
               <h3>CCNT</h3>
             </div>
             <div className="deal_components">
-              <img src='src\assest\icons\plus.svg' />
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/plus_lkh9qv.svg' />
               <h3>Joana Mini-market</h3>
             </div>
             <div className="deal_components">
-              <img src='src\assest\icons\plus.svg' />
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/plus_lkh9qv.svg' />
               <h3>Little Brazil Vegan</h3>
             </div>
             <div className="deal_components">
-              <img src='src\assest\icons\plus.svg' />
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/plus_lkh9qv.svg' />
               <h3>Target</h3>
             </div>
             <div className="deal_components">
-              <img src='src\assest\icons\plus.svg' />
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/plus_lkh9qv.svg' />
               <h3>Organic Place</h3>
             </div>
             <div className="deal_components">
-              <img src='src\assest\icons\plus.svg' />
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628846/chakr/plus_lkh9qv.svg' />
               <h3>Morello's</h3>
             </div>
           </div>
