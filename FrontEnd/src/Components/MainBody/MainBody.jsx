@@ -90,7 +90,7 @@ function MainBody({ data }) {
 
             <div className='customer_Info'>
               <div className='info_details'>
-                <img src='src\assest\images\Avatar (2).png' height="40px" width="40px"/>
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_2_wbag05.png' height="40px" width="40px"/>
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -107,7 +107,7 @@ function MainBody({ data }) {
             </div>
             <div className='customer_Info'>
               <div className="info_details">
-                <img src='src\assest\images\Avatar (1).png' height="40px" width="40px"/>
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_ecffh4.png' height="40px" width="40px"/>
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -125,7 +125,7 @@ function MainBody({ data }) {
             </div>
             <div className='customer_Info'>
               <div className="info_details">
-                <img src='src\assest\images\Avatar (3).png' height="40px" width="40px"/>
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_3_ci6ebe.png' height="40px" width="40px"/>
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -142,7 +142,7 @@ function MainBody({ data }) {
             </div>
             <div className='customer_Info'>
               <div className="info_details">
-                <img src='src\assest\images\Avatar.png' height="40px" width="40px"/>
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_1_j3niua.png' height="40px" width="40px"/>
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -160,7 +160,7 @@ function MainBody({ data }) {
 
           </div>
           <div className='customer_footer'>
-            <p>All customers <img src='src\assest\icons\Vector.svg' /></p>
+            <p>All customers <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706645202/chakr/Vector_nes7lt.svg' /></p>
           </div>
 
         </div>
@@ -201,7 +201,7 @@ function MainBody({ data }) {
             <div className="performance_details top_user">
               <h4>Top user</h4>
               <div className='top_user_values'>
-                <img src='src\assest\images\Avatar (1).png' width="24px" height="24px" />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_1_j3niua.png' width="24px" height="24px" />
                 <h4>Chirs Friedkly</h4>
                 <p>Oasis Organic inc</p>
               </div>
