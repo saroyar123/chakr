@@ -62,7 +62,7 @@ const  customDownsampling=(data)=> {
 
 app.get("/data",async(req,res)=>{
     try {
-        const Profit=await profit.find();
+        const Profit=await profit.find().sort({ Timestamp: 1 });
 
         const data = customDownsampling(Profit);
 
@@ -86,7 +86,7 @@ app.get("/data",async(req,res)=>{
 
 app.get("/graphdata",async(req,res)=>{
   try {
-    const data=await graph_Data.find();
+    const data=await graph_Data.find().sort({ Timestamp: 1 });
     console.log(data)
     res.status(200).json({
       suceess:true,
