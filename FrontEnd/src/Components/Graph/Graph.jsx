@@ -7,7 +7,7 @@ const Graph = () => {
     const [graphData, setGraphData] = useState("");
 
     useEffect(() => {
-        axios.get("https://chakr-backend-gnio.onrender.com/data")
+        axios.get("https://chakr-backend-gnio.onrender.com/graphdata")
             .then((response) => {
                 const { data } = response;
                 console.log(response);
