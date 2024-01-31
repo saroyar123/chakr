@@ -87,6 +87,7 @@ app.get("/data",async(req,res)=>{
 app.get("/graphdata",async(req,res)=>{
   try {
     const data=await graph_Data.find();
+    console.log(data)
     res.status(200).json({
       suceess:true,
       data
