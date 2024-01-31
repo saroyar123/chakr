@@ -238,6 +238,7 @@ svg{
 .chart {
     display: flex;
     justify-content: center;
+    min-height: 226px;
 }
 
 .graph_headers {

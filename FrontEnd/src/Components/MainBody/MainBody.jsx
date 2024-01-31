@@ -1,26 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import "./MainBody.css"
-import Chart from "react-apexcharts";
 
-function MainBody({ data }) {
-  const [graphData, setGraphData] = useState({
-    options: {
-      chart: {
-        id: "basic-bar"
-      },
-      xaxis: {
-        categories: data.map(entry => entry.date)
-      }
-    },
-    series: [
-      {
-        name: "series-1",
-        data: data.map((entry) => {
-          return entry.avg.toFixed(2)
-        })
-      }
-    ]
-  })
+import axios from 'axios';
+import Graph from '../Graph/Graph';
+
+function MainBody() {
+
+
   return (
     <div>
       {/* this is the starting of the analysis part of the companey data */}
@@ -53,7 +39,7 @@ function MainBody({ data }) {
                 <div className="quaterGoal_value">
                   <h3>84%</h3>
                 </div>
-        
+
               </div>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="110px" height="110px">
@@ -90,7 +76,7 @@ function MainBody({ data }) {
 
             <div className='customer_Info'>
               <div className='info_details'>
-                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_2_wbag05.png' height="40px" width="40px"/>
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_2_wbag05.png' height="40px" width="40px" />
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -107,7 +93,7 @@ function MainBody({ data }) {
             </div>
             <div className='customer_Info'>
               <div className="info_details">
-                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_ecffh4.png' height="40px" width="40px"/>
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_ecffh4.png' height="40px" width="40px" />
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -115,7 +101,7 @@ function MainBody({ data }) {
               </div>
 
               <div className="working_options wo2">
-              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628840/chakr/conversations_-_Copy_at3lzj.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628840/chakr/conversations_-_Copy_at3lzj.svg' />
                 <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628848/chakr/star_s8cbfu.svg' />
                 <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628842/chakr/edit_-_Copy_ayne0x.svg' />
                 <span>|</span>
@@ -125,7 +111,7 @@ function MainBody({ data }) {
             </div>
             <div className='customer_Info'>
               <div className="info_details">
-                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_3_ci6ebe.png' height="40px" width="40px"/>
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_3_ci6ebe.png' height="40px" width="40px" />
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -133,7 +119,7 @@ function MainBody({ data }) {
               </div>
 
               <div className="working_options wo3">
-              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628840/chakr/conversations_-_Copy_at3lzj.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628840/chakr/conversations_-_Copy_at3lzj.svg' />
                 <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628848/chakr/star_s8cbfu.svg' />
                 <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628842/chakr/edit_-_Copy_ayne0x.svg' />
                 <span>|</span>
@@ -142,7 +128,7 @@ function MainBody({ data }) {
             </div>
             <div className='customer_Info'>
               <div className="info_details">
-                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_1_j3niua.png' height="40px" width="40px"/>
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_1_j3niua.png' height="40px" width="40px" />
                 <div className="info">
                   <h4>name</h4>
                   <p>Supermarket</p>
@@ -150,7 +136,7 @@ function MainBody({ data }) {
               </div>
 
               <div className="working_options wo4">
-              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628840/chakr/conversations_-_Copy_at3lzj.svg' />
+                <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628840/chakr/conversations_-_Copy_at3lzj.svg' />
                 <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628848/chakr/star_s8cbfu.svg' />
                 <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706628842/chakr/edit_-_Copy_ayne0x.svg' />
                 <span>|</span>
@@ -168,19 +154,16 @@ function MainBody({ data }) {
 
         <div className="growth">
           <div className='graph'>
+
             <div className="graph_headers">
               <h2>Growth</h2>
               <p>Yearly</p>
             </div>
             <div className="chart">
-              <Chart
-                options={graphData.options}
-                series={graphData.series}
-                type="line"
-                width="500"
-                height="211"
-              />
+              <Graph/>
             </div>
+
+
 
           </div>
           <div className="performance">
@@ -223,20 +206,20 @@ function MainBody({ data }) {
                 <div className='dot'>
                 </div>
               </div>
-              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_3_ci6ebe.png'  height="35px" width="35px"/>
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_3_ci6ebe.png' height="35px" width="35px" />
             </div>
             <div className="chat_user active_user">
               <div className='active'>
                 <div className='dot'>
                 </div>
               </div>
-              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_ecffh4.png'  height="35px" width="35px"/>
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_ecffh4.png' height="35px" width="35px" />
             </div>
             <div className="chat_user">
-              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_2_wbag05.png'  height="35px" width="35px"/>
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_2_wbag05.png' height="35px" width="35px" />
             </div>
             <div className="chat_user">
-              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_1_j3niua.png'  height="35px" width="35px"/>
+              <img src='https://res.cloudinary.com/dwcarlfhd/image/upload/v1706649163/chakr/Avatar_1_j3niua.png' height="35px" width="35px" />
             </div>
           </div>
         </div>
