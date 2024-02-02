@@ -86,7 +86,7 @@ app.get("/data",async(req,res)=>{
 
 app.get("/graphdata",async(req,res)=>{
   try {
-    const data=await graph_Data.find().sort({ Timestamp: 1 });
+    const data=await graph_Data.find().sort({ date: 1 });
     console.log(data)
     res.status(200).json({
       suceess:true,
